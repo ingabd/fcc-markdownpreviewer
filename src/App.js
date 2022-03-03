@@ -1,5 +1,6 @@
 import './App.css'
 import ReactMarkdown from 'react-markdown'
+import remarkBreaks from 'remark-breaks'
 import { useState } from 'react'
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
     <div className="App">
       <textarea id="editor" value={raw} onChange={handleChange}></textarea>
       <div id="preview">
-        <ReactMarkdown>{raw}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkBreaks]}>{raw}</ReactMarkdown>
       </div>
     </div>
   );
