@@ -12,7 +12,7 @@ function App() {
   ### And here's some other cool stuff:
 
   `
-  const chunk2 = "Heres some code, `<div></div>`, between 2 backticks.\n\n```\n// this is multi-line code:\n\nfunction anotherExample(firstLine, lastLine) {\nif (firstLine == '```' && lastLine == '```') {\nreturn multiLineCode;\n}\n}\n```"
+  const chunk2 = "Heres some code, `<div></div>`, between 2 backticks.\n\n```\n// this is multi-line code:\n\nfunction anotherExample(firstLine, lastLine) {\n  if (firstLine == '```' && lastLine == '```') {\n    return multiLineCode;\n  }\n}\n```"
   const chunk3 = `
     
   You can also make text **bold**... whoa!
